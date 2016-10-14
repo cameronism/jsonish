@@ -1,0 +1,16 @@
+{
+	"name": "jsonish",
+	"version": "1.0.0",
+	"description": "Turns nearly valid json into valid beautified json",
+	"main": "index.js",
+	"bin": "./index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Cameron Jordan",
+	"license": "MIT",
+	"dependencies": {
+		"get-stdin": "^5.0.1",
+		"js-beautify": "^1.6.4"
+	}
+}
