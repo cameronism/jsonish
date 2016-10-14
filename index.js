@@ -15,7 +15,7 @@ function jsonish(s, verbose) {
 	return beautify(JSON.stringify(eval('(' + double(s) + ')')));
 }
 
-module.export = jsonish;
+module.exports = jsonish;
 
 if (require.main === module) {
 	var arg = (process.argv.length > 2 && process.argv[2]) || '';
